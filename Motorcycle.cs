@@ -12,9 +12,6 @@ namespace Testing
         public Motorcycle(string aColour, string aManufactorer, int aGaslevel)
         : base(aColour, aManufactorer, aGaslevel)
         {
-            colour = aColour;
-            manufactorer = aManufactorer;
-            gaslevel = aGaslevel;
         }
 
         public void PutHelmetOn()

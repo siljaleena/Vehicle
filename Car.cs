@@ -13,9 +13,6 @@ namespace Testing
         public Car(string aColour, string aManufactorer, int aGaslevel)
         : base(aColour, aManufactorer, aGaslevel)
         {
-            colour = aColour;
-            manufactorer = aManufactorer;
-            gaslevel = aGaslevel;
         }
 
 

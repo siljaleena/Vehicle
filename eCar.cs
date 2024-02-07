@@ -12,9 +12,6 @@ namespace Testing
         public eCar(string aColour, string aManufactorer, int aGaslevel)
         : base(aColour, aManufactorer, aGaslevel)
         {
-            colour = aColour;
-            manufactorer = aManufactorer;
-            gaslevel = aGaslevel;
         }
 
         public override void Drive()

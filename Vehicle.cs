@@ -17,6 +17,14 @@ namespace Testing
         public int nogas = 0;
         public bool outofgas = false;
 
+        public Vehicle(string aColour, string aManufactorer, int aGaslevel)
+        {
+            Console.WriteLine("You are in your " + aColour + aManufactorer);
+            colour = aColour;
+            manufactorer = aManufactorer;
+            gaslevel = aGaslevel;
+        }
+
         public virtual void Drive()
         {
 
@@ -45,14 +53,6 @@ namespace Testing
             {
                 Console.WriteLine("You decide to stop driving.");
             }
-        }
-
-        public Vehicle(string aColour, string aManufactorer, int aGaslevel)
-        {
-            Console.WriteLine("You are in your " + aColour + aManufactorer);
-            colour = aColour;
-            manufactorer = aManufactorer;
-            gaslevel = aGaslevel;
         }
 
 
