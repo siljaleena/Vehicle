@@ -21,7 +21,7 @@ namespace Testing
             {
                 if (gaslevel > nogas)
                 {
-                    Console.WriteLine("You have " + gaslevel + " gas left.");
+                    Console.WriteLine("You have " + gaslevel + " battery left.");
                     Console.Write("Want to keep driving? yes (Enter) or no (no)?   ");
                     drive = Console.ReadLine();
                     gaslevel--;
@@ -34,7 +34,7 @@ namespace Testing
             }
             if (outofgas)
             {
-                Console.WriteLine("Oh no! You ran out of gas!");
+                Console.WriteLine("Oh no! You ran out of battery!");
             }
             else
             {
